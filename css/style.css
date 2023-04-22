@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    font-family: Cuprum;
+}
+
+.nav-bar{
+    height: 100px;
+    background-color: darkgray;
+    box-shadow: 2px 5px 20px 1px #888888;
+}
+
+#logo-image{
+    /* border: 5px black solid; */
+    margin-left: 3.5rem;
+    width: 150px;
+    height: 100px;
+}
+
+.menu {
+    padding: 0;
+    float: right;
+}
+
+#menu-list {
+    /* display: inline-block; */
+    list-style-type: none;
+    margin: 2.3rem 0rem;
+
+}
+
+li {
+    display: inline-block;
+    padding: 0px 4rem;
+
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+li a:hover{
+    color: white;
+}
+
+.second-area{
+    margin-top: 1.2rem;
+    text-align: center;
+    background-color: black;
+}
+
+.second-area span{
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    color: white;
+}
+
+.third-area{
+    border: 2px solid black;
+    height: 200px;
+    margin-top: 0.9rem;
+}
