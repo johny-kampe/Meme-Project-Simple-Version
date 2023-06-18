@@ -10,8 +10,14 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     height: 35px;
-    background-color: white;
+    background-color: #fff;
     color: black;
+}
+
+.usp-area span {
+    font-family: Gotham,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 div .usp-ul-list {
@@ -21,4 +27,15 @@ div .usp-ul-list {
     display: flex;
     justify-content: space-between;
     width: 250px;
+    
+}
+
+.usp-ul-list li a {
+    text-decoration: none;
+    color: #19191b;
+    font-size: 14px;
+}
+
+.nav-bar {
+    background-color: #333;
 }
