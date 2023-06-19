@@ -38,4 +38,32 @@ div .usp-ul-list {
 
 .nav-bar {
     background-color: #333;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Gotham, sans-serif;
+    font-size: 14px;
+}
+
+.left-side-nav > a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    vertical-align:middle; 
+}
+
+.right-side-nav > a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.left-side-nav a {
+    margin-left: 30px;  
+    font-weight: bolder;
+}
+
+.right-side-nav a {
+    margin-right: 30px;  
 }
