@@ -228,3 +228,77 @@ div .usp-ul-list {
     height: 28rem;
 }
 
+.fifth-area-img1 {
+    position: relative;
+}
+
+.fifth-area-img2 {
+    position: relative;
+}
+
+.fifth-img-text {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    text-align: left;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.fifth-img-text span {
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.seventh-area {
+    background-color: #f2f2f4;
+    margin-top: 4.5rem;
+    height: 750px;
+}
+
+.seventh-text {
+    text-align: center;
+    font-weight: 700;
+    font-family: Gotham, sans-serif;
+    font-size: 2.5rem;
+    padding-top: 5.5rem;
+    padding-bottom: 3.3rem;
+}
+
+.multiple-img-area {
+    display: flex;
+    justify-content: center;
+    column-gap: 35px;
+}
+
+.multiple-img-area  img {
+    width: 285.83px;
+    height: 285.83px;
+}
+
+.area {
+    background-color: white;
+    width: 285.83px;
+    height: 445.83px;
+}
+
+.area div {
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.9rem;
+    font-family: Gotham, sans-serif;
+    width: 235px;
+    padding: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.newsletter {
+    height: 6.5rem;
+    background-color: #19191b;
+}
+
+.footer {
+    height: 28.5rem;
+}
