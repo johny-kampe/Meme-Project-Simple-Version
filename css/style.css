@@ -296,9 +296,38 @@ div .usp-ul-list {
 
 .newsletter {
     height: 6.5rem;
-    background-color: #19191b;
+    background-color: #164b77;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #205b8b;
+}
+
+.newsletter span {
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+ .newsletter-submit {
+    display: inline-block;
+ }
+
+ .newsletter-submit span {
+    margin-right: 10px;
+ }
+
+.newsletter-literal .nwl-icon-1{
+    margin-right: 30px;
+} 
+
+#nwl-lit:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #009bdb;
 }
 
 .footer {
     height: 28.5rem;
+    background-color: #164b77;
+
 }
