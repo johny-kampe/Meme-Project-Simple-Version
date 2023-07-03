@@ -329,5 +329,70 @@ div .usp-ul-list {
 .footer {
     height: 28.5rem;
     background-color: #164b77;
+    color: white;
+}
 
+.footer-elements {
+    display: flex;
+    justify-content: space-between;
+    height: 23.5rem;
+    border: 1px solid #205b8b;
+    padding: 0px 4%;
+}
+
+.head-link-elements {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.url-list {
+    padding-top: 4rem;
+}
+
+.head-link {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.head-link-elements li {
+    margin-top: 1rem;
+}
+
+.fa {
+    font-size: 100px;
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+.copyright-payment-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.9rem;
+}
+
+.copyright-payment-icons img {
+    width: 4rem;
+    height: 2.3rem;
+    border-radius: 5%;
 }
